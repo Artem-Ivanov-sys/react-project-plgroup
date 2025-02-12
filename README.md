@@ -1,3 +1,8 @@
+# Функціонал
+
+- Можна увійти в акаунт, ввевши емейл `me@me.com` і пароль `admin`
+- Натисканням на кнопку "вийти", вийти з акаунту
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
