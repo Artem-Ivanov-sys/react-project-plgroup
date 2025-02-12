@@ -1,0 +1,41 @@
+
+.login {
+    margin: auto;
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.login h1, .login > p {
+    margin-bottom: 40px;
+} .login > p {
+    font-size: 1.2em;
+}
+
+.loginform {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginform input {
+    padding: 10px 10px;
+    font-size: 1em;
+    outline: none;
+    border-radius: 20px;
+} .loginform p {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.loginform input:not([type="submit"]) {
+    margin-bottom: 10px;
+} .loginform input[type="submit"] {
+    margin-top: 20px;
+    background-color: #222;
+    color: white;
+}
